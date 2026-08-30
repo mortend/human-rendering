@@ -1,0 +1,11 @@
+{
+  "name": "human-rendering",
+  "version": "0.1.0-alpha.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-book-pdf.mjs",
+    "verify:book": "node scripts/verify-book.mjs && node scripts/verify-pdf-ua.mjs",
+    "verify:accessibility": "node scripts/verify-pdf-ua.mjs"
+  }
+}
